@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B5AEC8DB-BA91-B8F2-100E-9F261B3BD449}</ProjectGuid>
+    <ProjectGuid>{BFFDDE8B-805F-E32C-B2B8-823C731E142B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,22 +61,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GroundDetector.cs" />
+    <Compile Include="Assets\Scripts\Character3D.cs" />
     <Compile Include="Assets\Scripts\Controls.cs" />
+    <Compile Include="Assets\Scripts\CoreGame\SystemControls.cs" />
+    <Compile Include="Assets\Scripts\CoreGame\SystemGround.cs" />
+    <Compile Include="Assets\Scripts\GroundDetector.cs" />
     <Compile Include="Assets\Scripts\LandingSystem.cs" />
     <Compile Include="Assets\Scripts\Movement3D.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/LuisAngel/Documents/GitHub/RolePlayer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/LuisAngel/Documents/GitHub/RolePlayer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/LuisAngel/Documents/GitHub/RolePlayer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/LuisAngel/Documents/GitHub/RolePlayer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/LuisAngel/Documents/GitHub/ForsenBoyz/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

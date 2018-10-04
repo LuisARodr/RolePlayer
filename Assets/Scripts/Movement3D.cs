@@ -86,7 +86,7 @@ public class Movement3D : MonoBehaviour {
             angle = Mathf.Atan2(Controls.Controls.getAxis().y, Controls.Controls.getAxis().x) * Mathf.Rad2Deg;
             //Debug.Log("zValue: " + angle);
             //Debug.Log("X y Y: " + Controls.LeftJoystick().x + " " + Controls.LeftJoystick().y);
-            rotation = Quaternion.Euler(0, angle - 90, 0);
+            rotation = Quaternion.Euler(0, (angle - 90) * -1, 0);
             transform.rotation = rotation;
         }
     }
